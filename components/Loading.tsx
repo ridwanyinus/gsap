@@ -41,7 +41,7 @@ const Loading = () => {
     <div className="flex justify-center items-center ">
       <div className="wrapper absolute top-0 left-0 flex flex-col justify-center items-center w-screen h-screen  bg-black">
         <div className="container rotate-45 w-24 grid  grid-cols-3 place-items-center place-content-center gap-1 ">
-          {new Array(9).fill().map((arr, idx: number) => {
+          {new Array(9).fill(undefined).map((arr, idx: number) => {
             return <div key={idx} className="box w-7 h-7 bg-[#39FF14] "></div>;
           })}
         </div>
