@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Loading.tsx", "components/MaskedImage.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Loading.tsx", "components/MaskedImage.jsx", "components/ImageReveal.jsx", "app/ImageReveal/page.jsx"],
   "exclude": ["node_modules"]
 }

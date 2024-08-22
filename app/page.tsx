@@ -10,6 +10,9 @@ const page = () => {
       <Link href="/MaskedImage" className="h-12 block bg-slate-400 text-center leading-9 text-3xl">
         Masked Image animation
       </Link>
+      <Link href="/ImageReveal" className="h-12 block bg-slate-300 text-center leading-9 text-3xl mt-8 text-black">
+        Image Reveal animation
+      </Link>
     </div>
   );
 };
