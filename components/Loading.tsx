@@ -26,7 +26,7 @@ const Loading = () => {
       },
     });
 
-    tl.to(".container", {
+    tl.to(".container-loading", {
       rotate: "-450deg",
       scale: 0,
       duration: 1,
@@ -38,14 +38,14 @@ const Loading = () => {
     });
   });
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center overflow-hidden ">
       <div className="wrapper absolute top-0 left-0 flex flex-col justify-center items-center w-screen h-screen  bg-black">
-        <div className="container rotate-45 w-24 grid  grid-cols-3 place-items-center place-content-center gap-1 ">
+        <div className="container-loading rotate-45 w-24 grid  grid-cols-3 place-items-center place-content-center gap-1 ">
           {new Array(9).fill(undefined).map((arr, idx: number) => {
             return <div key={idx} className="box w-7 h-7 bg-[#39FF14] "></div>;
           })}
         </div>
-        <h1 className="text-white mt-10 text-3xl  w-fit h-max">Loading Hell......</h1>
+        {/* <h1 className="text-white mt-10 text-3xl  w-fit h-max">Loading 💀...</h1> */}
       </div>
     </div>
   );
