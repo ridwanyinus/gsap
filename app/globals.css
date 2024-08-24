@@ -88,3 +88,7 @@
 .piece5 {
   background-position: 0 -400px;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+}

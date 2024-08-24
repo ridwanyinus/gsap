@@ -13,9 +13,7 @@ const page = () => {
       <Link href="/ImageReveal" className="h-12 block bg-slate-300 text-center leading-9 text-3xl mt-8 text-black capitalize">
         Image Reveal animation
       </Link>
-      <Link href="/ParallaxScrolling" className="h-12 block bg-neutral-600 text-center leading-9 text-3xl mt-8 text-white capitalize">
-        Parallax Scrolling Effect
-      </Link>
+      <Link href="/" className="h-12 block bg-neutral-600 text-center leading-9 text-3xl mt-8 text-white capitalize"></Link>
     </div>
   );
 };
