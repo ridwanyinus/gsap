@@ -2,7 +2,7 @@ import React from "react";
 import MaskedImage from "@/components/MaskedImage";
 const page = () => {
   return (
-    <div>
+    <div className="bg-white">
       <MaskedImage />
     </div>
   );
